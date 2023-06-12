@@ -8,7 +8,7 @@ class ShoppingCart:
     def __init__(self):
         self.list = []
 
-    def add(self, item: Item):  # adds in the max 10 items to the cart
+    def add(self, item: Item):  # adds at the max 10 items to the cart
         if len(self.list) >= 10:
             print("Shopping Cart full")
         else:
